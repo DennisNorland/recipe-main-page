@@ -1,0 +1,30 @@
+@media screen and (max-width: 700px){
+
+    .text-2{
+        font-size: 25px;
+    }
+
+    .preparation span{
+        font-size: 40px;
+    }
+
+    .preparation p{
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen  and (max-width: 600px){
+   
+
+    .showcase img{
+        border-radius: 5px;
+        width: 100%;
+    }
+}

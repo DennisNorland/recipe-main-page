@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:"Young Serif", serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    padding: 25px;
+    margin:0 10rem;
+    box-sizing:border-box;
+    background-color:  hsl(30, 54%, 90%);
+ }
+
+ section #container-1{
+    text-align: center;
+ }
+
+
+.all{
+    width: 100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.showcase img{
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.text-1{
+    font-size: 50px;
+    font-weight: 600;
+    color:  hsl(24, 5%, 18%);
+}
+
+.text-2{
+    margin: 15px;
+    line-height: 30px ;
+    color:   hsl(30, 10%, 34%);
+}
+
+.color{
+   margin-top:  15px;
+    background-color:  hsl(330, 100%, 98%);
+    border-radius:  10px;
+    height: 200px;
+}
+
+.preparation{
+    margin-top: 15px;
+    color: hsl(30, 10%, 34%); 
+}
+
+.preparation p{
+    margin: 10px;
+}
+
+.preparation h1{
+     font-size: 30px;
+    font-weight: 500; 
+    margin: 15px;
+    color:  hsl(332, 51%, 32%);
+}
+
+.preparation span{
+    font-size: large;
+    font-weight: 600;
+    padding: 20px;
+   
+}
+
+.ingredients h1{
+    margin: 15px;
+    font-size: 40px;
+    font-weight: 600;
+    color: hsl(14, 45%, 36%); 
+}
+
+.ingredients p{
+    color:  hsl(30, 10%, 34%);
+    margin: 10px;
+}
+
+.ingredients{
+    min-height: fit-content;
+   }
+
+   .border{
+    margin-top: 20px;
+    border-bottom: 2px solid rgb(187, 175, 175);
+   }
+
+/* SECTION CONTAINER-2 */
+
+.instruction h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 15px;
+    color:  hsl(14, 45%, 36%);
+}
+
+.text-2 span{
+    font-size: large;
+    font-weight: 400;
+    padding: 10px;
+    color:  hsl(24, 5%, 18%);
+}
+
+.Nutrition h1{
+    margin: 15px;
+    font-size: 40px;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+}
+
+ .ben{
+    color: hsl(14, 45%, 36%);
+    } 
+
+    .p-2{
+        margin: 10px;
+    }
+
+.flex{
+    width: 400px;
+    line-height: 30px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+
