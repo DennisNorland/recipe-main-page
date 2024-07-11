@@ -22,9 +22,49 @@
 
 @media screen  and (max-width: 600px){
    
+    section{
+    margin: 2rem;
+    box-sizing:border-box;
+    background-color:  hsl(30, 54%, 90%);
+    } 
 
-    .showcase img{
-        border-radius: 5px;
-        width: 100%;
+    section #container-1{
+        text-align: center;
     }
+
+     .showcase img{
+        width: 100%;
+    } 
+
+    .text-1{
+        font-size: 20px;
+        font-weight: 500;
+        color:  hsl(24, 5%, 18%);
+    }
+
+    .text-2{
+        width: 340px;
+        font-size: 15px;
+        font-weight: 100;
+    }
+    .preparation h1{
+   font-size: 25px;
+    color:  hsl(332, 51%, 32%);
+}
+
+.preparation p{
+    font-size: 15px;
+}
+
+.preparation span{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px;
+   
+}
+
+
+.flex{
+    justify-content: space-around; 
+}
 }
