@@ -23,7 +23,6 @@
 @media screen  and (max-width: 600px){
    
     section{
-    margin: 2rem;
     box-sizing:border-box;
     background-color:  hsl(30, 54%, 90%);
     } 
